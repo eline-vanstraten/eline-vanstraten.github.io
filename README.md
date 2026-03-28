@@ -1,16 +1,54 @@
-# React + Vite
+# ✦ Portfolio Eline van Straten
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dit is mijn persoonlijke portfolio website gebouwd met React + Vite.
 
-Currently, two official plugins are available:
+Hier toon ik mijn projecten, skills en contactinformatie.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✦ Technologieën
 
-## React Compiler
+- React
+- Vite
+- JavaScript
+- HTML
+- Tailwind CSS en custom CSS
+- React Router
+- Git en Github
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✦ Functies
 
-## Expanding the ESLint configuration
+- Over mij sectie
+- Projecten overzicht
+- Informatie per project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✦ Installatie en gebruik
+
+1. Clone de repository:
+
+```sh
+git clone https://github.com/eline-vanstraten/portfolio.git
+```
+
+2. Ga naar de map:
+
+```sh
+cd portfolio
+```
+
+3. Installeer dependencies:
+
+```sh
+npm install
+```
+
+4. Start de development server:
+
+```sh
+npm run dev
+```
+
+## ✦ Auteur
+
+Eline van Straten
+
+
+
