@@ -23,7 +23,7 @@ function Index() {
 
 
             <section className={"min-h-screen flex px-8"} id={"over-mij"}>
-                <div className={"flex flex-col gap-10"}>
+                <div className={"flex flex-col gap-5 mb-10"}>
                     <h3 className={"text-6xl"}>Over mij</h3>
                     <div className={"flex flex-row gap-8 items-start"}>
                         <div className={"flex flex-col gap-4"}>
@@ -38,8 +38,8 @@ function Index() {
                         </div>
 
                         <div className={"flex flex-col gap-4"}>
-                            <p className={"text-lg leading-relaxed pb-4"}>
-                                Hallo, Ik ben Eline van Straten, 19 jaar, tweedejaars student Creative Media en Game
+                            <p className={"text-lg leading-relaxed"}>
+                                Hallo, Ik ben Eline van Straten, 19 jaar en tweedejaars student Creative Media en Game
                                 Technologies aan de Hogeschool Rotterdam.
                             </p>
                             <div>
@@ -73,7 +73,7 @@ function Index() {
                             </div>
                             <div>
                                 <h4 className={"text-3xl"}><span className={"text-accent"}>✦</span> Op Zoek naar een
-                                    Meeloopstage
+                                    Meeloopstage (periode begin september 2026 tot eind januari 2027)
                                 </h4>
                                 <p className={"text-lg leading-relaxed"}>
                                     Op dit moment ben ik actief op zoek naar een meeloopstage met een focus op front-end
@@ -145,7 +145,7 @@ function Index() {
                             link={"/natureParksBack"}
                             image={"/projects/natureParks/express.png"}
                             title={"Nature Parks back-end"}
-                            description={"Een RESTful webservice met als data een verzameling van verschillende natuur parken uit de Verenigde Staten."}
+                            description={"Een RESTful webservice met als data een verzameling van verschillende natuur parken in de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["Express", "Mongoose", "MongoDB"]}
                         />

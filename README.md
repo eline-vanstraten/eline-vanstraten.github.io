@@ -25,13 +25,13 @@ Hier toon ik mijn projecten, skills en contactinformatie.
 1. Clone de repository:
 
 ```sh
-git clone https://github.com/eline-vanstraten/portfolio.git
+git clone https://github.com/eline-vanstraten/eline-vanstraten.github.io.git
 ```
 
 2. Ga naar de map:
 
 ```sh
-cd portfolio
+cd eline-vanstraten.github.io
 ```
 
 3. Installeer dependencies:
