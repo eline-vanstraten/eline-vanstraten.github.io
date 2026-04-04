@@ -1,34 +1,64 @@
 import {Link, Outlet} from "react-router";
+import {useState} from "react";
+import ScrollToHash from "../components/ScrollToHash.jsx";
 
 function Layout() {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <>
             <div className="min-h-screen flex flex-col">
 
                 <header
-                    className={"sticky top-0 bg-primary px-3 py-2.5 z-50 outline-solid outline-accent"}>
-                    <div className={"hidden items-center justify-between max-w-400 mx-auto sm:flex"}>
-                        <div className={"flex items-center gap-5"}>
-                            <img src="/logoEline.png" alt="" className={"h-10"}/>
-                            <p className={"text-body"}>Portfolio / Eline van Straten / {new Date().getFullYear()}</p>
+                    className={"sticky top-0 bg-primary px-4 py-3 z-50 border-b border-accent"}>
+                    <div className={"items-center justify-between max-w-7xl mx-auto flex"}>
+                        <div className={"flex items-center gap-3"}>
+                            <img src={"/logoEline.png"} alt={"Logo with initials E V S."} className={"h-8 sm:h-10"}/>
+                            <p className={"text-sm text-body"}>Portfolio / Eline van Straten
+                                / {new Date().getFullYear()}</p>
 
 
                         </div>
-                        <div className={"flex items-center gap-10"}>
-                            <a href={"/#home"} className={"text-body hover:underline"}>Home</a>
-                            <a href={"/#over-mij"} className={"text-body hover:underline"}>Over mij</a>
-                            <a href={"/#mijn-projecten"} className={"text-body hover:underline"}>Mijn projecten</a>
-                            <a href={"/#contact"} className={"text-body hover:underline"}>Contact</a>
+                        <div className={"hidden md:flex items-center gap-8"}>
+                            <Link to={"/#home"} className={"text-body hover:underline"}>Home</Link>
+                            <Link to={"/#over-mij"} className={"text-body hover:underline"}>Over mij</Link>
+                            <Link to={"/#mijn-projecten"} className={"text-body hover:underline"}>Mijn projecten</Link>
+                            <Link to={"/#contact"} className={"text-body hover:underline"}>Contact</Link>
                         </div>
+
+                        {/*mobile*/}
+                        <button
+                            className="md:hidden flex flex-col gap-1"
+                            onClick={() => setMenuOpen(!menuOpen)}>
+                            <span className="w-6 h-0.5 bg-body"></span>
+                            <span className="w-6 h-0.5 bg-body"></span>
+                            <span className="w-6 h-0.5 bg-body"></span>
+                        </button>
                     </div>
+
+                    {menuOpen && (
+                        <div className="md:hidden mt-4 flex flex-col gap-4 px-2 pb-4">
+                            <Link to="/#home" onClick={() => setMenuOpen(false)} className={"text-body"}>Home</Link>
+                            <Link to="/#over-mij" onClick={() => setMenuOpen(false)} className={"text-body"}>Over
+                                mij</Link>
+                            <Link to="/#mijn-projecten" onClick={() => setMenuOpen(false)} className={"text-body"}>Mijn
+                                projecten</Link>
+                            <Link to="/#contact" onClick={() => setMenuOpen(false)}
+                                  className={"text-body"}>Contact</Link>
+                        </div>
+                    )}
+
+
                 </header>
                 {/*<div className="mx-auto max-w-7xl ">*/}
-                <main className={"flex-1"}>
+                <main className={"flex-1 w-full mx-auto"}>
+                    <ScrollToHash/>
                     <Outlet/>
                 </main>
                 {/*</div>*/}
                 <footer
-                    className={"left-0 right-0 bottom-0 h-16 bg-stone-800 text-body text-center px-3 py-3 outline-solid outline-accent"}>&copy; Portfolio
+                    className={"bg-stone-800 text-center text-body py-4 text-sm border-t border-accent"}>&copy; Portfolio
                     / Eline van Straten
                     / {new Date().getFullYear()}
                 </footer>

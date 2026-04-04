@@ -5,6 +5,7 @@ import Poppy from "./pages/projects/Poppy.jsx";
 import NatureParksFront from "./pages/projects/NatureParksFront.jsx";
 import NatureParksBack from "./pages/projects/NatureParksBack.jsx";
 import NatuurQuest from "./pages/projects/NatuurQuest.jsx";
+import Projects from "./pages/website/Projects.jsx";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path: "/natuurQuest",
                 element: <NatuurQuest/>
+            },
+            {
+                path: "/projects",
+                element: <Projects/>
             },
             {
                 path: "*",

@@ -83,9 +83,9 @@ function NatureParksFront() {
                     <div
                         className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 w-full mx-auto lg:max-w-2xl"}>
                         <img src={"/projects/natureParks/natureParksBegin.png"} alt={"Nature parks beginning page"}
-                             className={"w-fit h-fit object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
+                             className={"w-fit h-fit object-fit rounded-lg shadow-md"}/>
                         <img src={"/projects/natureParks/natureParksDetail.png"} alt={"Detail of nature park"}
-                             className={" w-full h-fit object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
+                             className={" w-full h-fit object-fit rounded-lg shadow-md"}/>
 
                     </div>
 

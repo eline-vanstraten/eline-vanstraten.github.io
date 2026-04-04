@@ -87,11 +87,11 @@ function Poppy() {
                         <img src={"/projects/poppy/poppySwipe.png"} alt={"Poppy swipe right"}
                              className={"w-fit h-125 object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
                         <img src={"/projects/poppy/poppySwipe2.png"} alt={"Poppy swipe left"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
+                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
                         <img src={"/projects/poppy/poppyRecommendation.png"} alt={"Poppy recommendation feature"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
+                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
                         <img src={"/projects/poppy/poppyBubble.png"} alt={"Poppy bubble visualisation"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md hover:scale-105 transition "}/>
+                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
                     </div>
 
                 </div>
