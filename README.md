@@ -19,6 +19,7 @@ Hier toon ik mijn projecten, skills en contactinformatie.
 - Over mij sectie
 - Projecten overzicht
 - Informatie per project
+- Responsive
 
 ## ✦ Installatie en gebruik
 
