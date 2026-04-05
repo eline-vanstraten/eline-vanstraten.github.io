@@ -1,6 +1,12 @@
 import SkillSection from "../../components/SkillSection.jsx";
+import {useEffect} from "react";
 
 function AboutMe() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     return (
         <>
             <section className={"h-auto px-8 py-8 mx-auto"} id={"over-mij"}>
