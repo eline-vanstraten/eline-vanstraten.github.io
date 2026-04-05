@@ -41,7 +41,7 @@ function Layout() {
                         <div className="md:hidden mt-4 flex flex-col gap-4 px-2 pb-4">
                             <Link to="/aboutMe" onClick={() => setMenuOpen(false)} className={"text-body"}>Over
                                 mij</Link>
-                            <Link to="/#mijn-projecten" onClick={() => setMenuOpen(false)} className={"text-body"}>Mijn
+                            <Link to="/projects" onClick={() => setMenuOpen(false)} className={"text-body"}>Mijn
                                 projecten</Link>
                             <Link to="/#contact" onClick={() => setMenuOpen(false)}
                                   className={"text-body"}>Contact</Link>
