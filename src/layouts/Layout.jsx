@@ -15,15 +15,15 @@ function Layout() {
                     <div className={"items-center justify-between max-w-7xl mx-auto flex"}>
                         <div className={"flex items-center gap-3"}>
                             <img src={"/logoEline.png"} alt={"Logo with initials E V S."} className={"h-8 sm:h-10"}/>
-                            <p className={"text-sm text-body"}>Portfolio / Eline van Straten
-                                / {new Date().getFullYear()}</p>
+                            <Link to={"/#home"} className={"text-sm text-body hover:underline"}>Portfolio / Eline van
+                                Straten
+                                / {new Date().getFullYear()}</Link>
 
 
                         </div>
                         <div className={"hidden md:flex items-center gap-8"}>
-                            <Link to={"/#home"} className={"text-body hover:underline"}>Home</Link>
-                            <Link to={"/#over-mij"} className={"text-body hover:underline"}>Over mij</Link>
-                            <Link to={"/#mijn-projecten"} className={"text-body hover:underline"}>Mijn projecten</Link>
+                            <Link to={"/aboutMe"} className={"text-body hover:underline"}>Over mij</Link>
+                            <Link to={"/projects"} className={"text-body hover:underline"}>Mijn projecten</Link>
                             <Link to={"/#contact"} className={"text-body hover:underline"}>Contact</Link>
                         </div>
 
@@ -39,8 +39,7 @@ function Layout() {
 
                     {menuOpen && (
                         <div className="md:hidden mt-4 flex flex-col gap-4 px-2 pb-4">
-                            <Link to="/#home" onClick={() => setMenuOpen(false)} className={"text-body"}>Home</Link>
-                            <Link to="/#over-mij" onClick={() => setMenuOpen(false)} className={"text-body"}>Over
+                            <Link to="/aboutMe" onClick={() => setMenuOpen(false)} className={"text-body"}>Over
                                 mij</Link>
                             <Link to="/#mijn-projecten" onClick={() => setMenuOpen(false)} className={"text-body"}>Mijn
                                 projecten</Link>

@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard.jsx";
 import {Link} from "react-router";
+import SkillSection from "../components/SkillSection.jsx";
 
 
 function Index() {
@@ -18,12 +19,11 @@ function Index() {
                     <div
                         className={"flex flex-col  text-center md:text-left gap-6 md:w-1/2 justify-center px-8"}>
                         <div className={"flex justify-center pt-10"}>
-                            <img className={"w-40 h-40 md:w-52 md:h-52 rounded-full object-cover"} src={"/myself1.jpeg"}
+                            <img className={"w-40 h-50 md:w-52 md:h-62 rounded-full object-cover"} src={"/myself1.jpeg"}
                                  alt={"me"}/>
                         </div>
                         <div className={"pt-5"}>
-                            <h1 className={"text-4xl sm:text-6xl lg:text-7xl"}>Creative Developer <span
-                                className={"text-accent"}>✦</span></h1>
+                            <h1 className={"text-4xl sm:text-6xl lg:text-7xl"}>Creative Developer</h1>
                             <h2 className={"font-gabriela text-3xl sm:text-5xl lg:text-6xl"}>PORTFOLIO</h2>
                         </div>
 
@@ -36,8 +36,7 @@ function Index() {
             </section>
 
 
-            <section className={"h-auto px-8 py-8 mx-auto"} id={"over-mij"}>
-                <h3 className={"text-3xl sm:text-5xl pb-5"}>Over mij</h3>
+            <section className={"h-auto px-8 py-8 mt-10 mx-auto"}>
                 <div className={"flex flex-col lg:flex-row gap-8 "}>
 
                     <div className={"flex flex-col gap-4 text-base sm:text-lg leading-relaxed"}>
@@ -45,35 +44,6 @@ function Index() {
                             Hallo, Ik ben Eline van Straten, 19 jaar en tweedejaars student Creative Media en Game
                             Technologies aan de Hogeschool Rotterdam.
                         </p>
-                        <div>
-                            <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Mijn
-                                creatieve ontwikkeling</h4>
-                            <p>
-                                Als klein kind maakte ik talloze edits met apps zoals Video Star en I-Movie. Dit
-                                waren mijn eerste speelse stappen in het omzetten van creatieve ideeën naar beeld.
-                                Op de Hogeschool van Rotterdam werk ik nu met programmeertalen als HTML, CSS,
-                                JavaScript, PHP en frameworks zoals Laravel en React. Hiermee ontwikkel ik
-                                applicaties en websites en leg ik een solide basis in full stack development. Mijn
-                                creatieve ideeën weet ik steeds beter te vertalen naar praktische digitale
-                                oplossingen. Het geeft me veel plezier om goed werkende applicaties te bouwen die
-                                niet alleen technisch kloppen, maar ook visueel aantrekkelijk zijn en prettig werken
-                                voor de gebruiker.
-                            </p>
-                        </div>
-                        <div>
-                            <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Mijn passie
-                                voor dans
-                            </h4>
-                            <p>
-                                Dans is een van mijn grote passies. Al zo’n 15 jaar beoefen ik verschillende
-                                dansvormen (zoals modern, hip hop, ballet en K-pop). Ook maak ik deel uit van
-                                selectie- en wedstrijdteams. Binnen deze teams heb ik vaardigheden ontwikkeld
-                                zoals het leren van nieuwe dingen, discipline en doorzettingsvermogen. Ik kan goed
-                                werken in teamverband, maar werk ook graag zelfstandig. Daarnaast ben ik gewend
-                                om feedback te ontvangen en zal ik hier ook om vragen, omdat dit mij helpt om
-                                mezelf steeds verder te verbeteren in wat ik doe.
-                            </p>
-                        </div>
                         <div>
                             <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Op Zoek naar
                                 een Meeloopstage (periode begin september 2026 tot eind januari 2027)
@@ -88,6 +58,12 @@ function Index() {
                                 verder groeien binnen het vakgebied dat mij zo enthousiast maakt.
                             </p>
                         </div>
+                        <div className={"flex justify-center md:justify-start"}>
+                            <Link to={"/aboutMe"}
+                                  className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary cursor-pointer"}>Over
+                                mij
+                            </Link>
+                        </div>
                     </div>
 
                     <div className={"flex flex-row lg:flex-col justify-center gap-4"}>
@@ -95,43 +71,11 @@ function Index() {
                             <img className={"w-full h-full object-cover object-bottom scale-250"}
                                  src={"/myself2.jpeg"} alt={"me"}/>
                         </div>
-                        <div className={"w-40 h-40 sm:w-56 sm:h-56 rounded-2xl overflow-hidden"}>
-                            <img className={"w-full h-full object-cover"}
-                                 src={"/myselfDance.jpeg"} alt={"me dancing"}/>
-                        </div>
                     </div>
 
                 </div>
+                <SkillSection/>
 
-                <div className={"grid md:grid-cols-2 gap-10 mt-6"}>
-                    <div>
-                        <h4 className={"text-2xl sm:text-3xl pb-2 text-center md:text-left"}>Skills</h4>
-                        <div className={"flex flex-wrap gap-4 justify-center md:justify-start"}>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/html.png"} alt={"html"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/css.png"} alt={"css"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/js.png"} alt={"js"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/php.png"} alt={"php"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/laravel.webp"}
-                                 alt={"laravel"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/react.png"} alt={"react"}/>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h4 className={"text-2xl sm:text-3xl pb-2 text-center md:text-left"}>Andere tools</h4>
-                        <div className={"flex flex-wrap gap-4 justify-center md:justify-start"}>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/photoshop.png"}
-                                 alt={"adobe photoshop"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/illustrator.webp"}
-                                 alt={"adobe illustrator"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/videostar.png"}
-                                 alt={"videostar"}/>
-                            <img className={"w-25 h-25 object-contain"} src={"/skills/imovie.png"}
-                                 alt={"imovie"}/>
-                        </div>
-
-                    </div>
-                </div>
             </section>
 
             <section className={"h-auto px-8 py-8 mx-auto"} id={"mijn-projecten"}>
@@ -198,17 +142,17 @@ function Index() {
                     <div
                         className={"flex flex-col justify-center md:flex-row gap-6 md:gap-12 items-center md:items-start"}>
                         <div>
-                            <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Email:</h4>
+                            <h4 className={"text-2xl sm:text-3xl"}> Email:</h4>
                             <a href="mailto:elinevanstr@gmail.com"
                                className={"inline-block bg-primary rounded-full px-5 py-3 mt-2 text-body hover:bg-secondary"}>elinevanstr@gmail.com</a>
                         </div>
                         <div>
-                            <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Github:</h4>
+                            <h4 className={"text-2xl sm:text-3xl"}> Github:</h4>
                             <a href={"https://github.com/eline-vanstraten"} target="_blank" rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 mt-2 text-body hover:bg-secondary"}>eline-vanstraten</a>
                         </div>
                         <div>
-                            <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> LinkedIn:
+                            <h4 className={"text-2xl sm:text-3xl"}> LinkedIn:
                             </h4>
                             <a href={"https://www.linkedin.com/in/eline-van-straten-8585403a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bze5g1kwPQyyMJRIrAc7KUQ%3D%3D"}
                                target="_blank" rel="noopener noreferrer"
@@ -216,7 +160,8 @@ function Index() {
                                 van Straten</a>
                         </div>
                         <div>
-                            <img className={"w-20 h-20 md:w-32 md:h-32"} src={"/logoEline.png"}
+                            <img className={"w-20 h-20 md:w-32 md:h-32 flex-shrink-0 object-contain"}
+                                 src={"/logoEline.png"}
                                  alt={"Logo with initials E V S."}/>
                         </div>
                     </div>

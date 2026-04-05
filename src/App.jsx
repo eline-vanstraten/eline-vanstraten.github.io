@@ -6,6 +6,7 @@ import NatureParksFront from "./pages/projects/NatureParksFront.jsx";
 import NatureParksBack from "./pages/projects/NatureParksBack.jsx";
 import NatuurQuest from "./pages/projects/NatuurQuest.jsx";
 import Projects from "./pages/website/Projects.jsx";
+import AboutMe from "./pages/website/AboutMe.jsx";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects/>
+            },
+            {
+                path: "/aboutMe",
+                element: <AboutMe/>
             },
             {
                 path: "*",

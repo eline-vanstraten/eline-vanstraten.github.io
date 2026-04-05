@@ -18,7 +18,7 @@ function NatureParksBack() {
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individueel
-                                schoolproject </p>
+                                schoolproject (Fullstack Web Development)</p>
                             <p><span className={"text-accent"}>✦</span> Dit is de back-end van
                                 mijn project Nature
                                 Parks. Het bestaat uit mijn eigen RESTful webservice waar een verzameling van

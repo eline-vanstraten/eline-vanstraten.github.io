@@ -72,15 +72,15 @@ function NatuurQuest() {
 
                     </div>
                     <div
-                        className={"grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 w-full mx-auto lg:max-w-2xl"}>
+                        className={"grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mx-auto lg:max-w-2xl"}>
                         <img src={"/projects/natuurQuest/natuurQuestBegin.png"} alt={"NatuurQuest begin game"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/natuurQuest/natuurQuestGame.png"} alt={"NatuurQuest 30 seconds game"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/natuurQuest/natuurQuestScore.png"} alt={"NatuurQuest score after game"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/natuurQuest/natuurQuestGameDone.png"} alt={"NatuurQuest game done"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                     </div>
 
                 </div>

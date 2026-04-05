@@ -1,19 +1,24 @@
 import ProjectCard from "../../components/ProjectCard.jsx";
 import {Link} from "react-router";
+import {useEffect} from "react";
 
 function Projects() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     return (
         <>
             <section className={"h-auto px-8 py-8 mx-auto"} id={"mijn-projecten"}>
                 <h3 className={"text-3xl sm:text-5xl pb-5"}>Mijn projecten</h3>
 
-                <div className={"flex justify-start mb-10"}>
-                    <Link to={"/#mijn-projecten"}
-                          className={"inline-block bg-primary rounded-full px-3 py-1 text-body hover:bg-secondary cursor-pointer"}>Ga
-                        terug
-                    </Link>
-                </div>
+                {/*<div className={"flex justify-start mb-10"}>*/}
+                {/*    <Link to={"/#mijn-projecten"}*/}
+                {/*          className={"inline-block bg-primary rounded-full px-3 py-1 text-body hover:bg-secondary cursor-pointer"}>Ga*/}
+                {/*        terug*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
 
                 <div className={"flex justify-center"}>
                     <div className={" grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"}>
@@ -55,7 +60,7 @@ function Projects() {
 
                     </div>
                 </div>
-                
+
             </section>
         </>
     )

@@ -83,15 +83,15 @@ function Poppy() {
 
                     </div>
                     <div
-                        className={"grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 w-full mx-auto lg:max-w-2xl"}>
+                        className={"grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mx-auto lg:max-w-2xl"}>
                         <img src={"/projects/poppy/poppySwipe.png"} alt={"Poppy swipe right"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md hover:scale-105 transition"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/poppy/poppySwipe2.png"} alt={"Poppy swipe left"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/poppy/poppyRecommendation.png"} alt={"Poppy recommendation feature"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/poppy/poppyBubble.png"} alt={"Poppy bubble visualisation"}
-                             className={"w-fit h-125 object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto max-w-[200px] mx-auto object-contain rounded-lg shadow-md"}/>
                     </div>
 
                 </div>

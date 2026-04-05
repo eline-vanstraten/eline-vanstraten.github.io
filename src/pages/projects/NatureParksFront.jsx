@@ -16,7 +16,7 @@ function NatureParksFront() {
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individueel
-                                schoolproject </p>
+                                schoolproject (Fullstack Web Development)</p>
                             <p><span className={"text-accent"}>✦</span> Dit is de front-end van
                                 mijn project Nature
                                 Parks. Het bestaat uit een applicatie met een verzameling van verschillende natuur
@@ -81,11 +81,11 @@ function NatureParksFront() {
 
                     </div>
                     <div
-                        className={"grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 w-full mx-auto lg:max-w-2xl"}>
+                        className={"grid grid-cols-1 gap-4 w-full mx-auto lg:max-w-2xl"}>
                         <img src={"/projects/natureParks/natureParksBegin.png"} alt={"Nature parks beginning page"}
-                             className={"w-fit h-fit object-fit rounded-lg shadow-md"}/>
+                             className={"w-fit h-auto object-contain rounded-lg shadow-md"}/>
                         <img src={"/projects/natureParks/natureParksDetail.png"} alt={"Detail of nature park"}
-                             className={" w-full h-fit object-fit rounded-lg shadow-md"}/>
+                             className={" w-full h-auto object-contain rounded-lg shadow-md"}/>
 
                     </div>
 
