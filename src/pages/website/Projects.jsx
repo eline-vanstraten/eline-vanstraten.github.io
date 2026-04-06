@@ -33,7 +33,7 @@ function Projects() {
 
                         <ProjectCard
                             link={"/natureParksFront"}
-                            image={"/projects/natureParks/natureParks.png"}
+                            image={"/projects/natureParks/natureParksBegin.png"}
                             title={"Nature Parks front-end"}
                             description={"Een applicatie met een verzameling van verschillende natuur parken in de Verenigde Staten."}
                             date={"27 januari 2026"}
@@ -46,16 +46,25 @@ function Projects() {
                             title={"Nature Parks back-end"}
                             description={"Een RESTful webservice met als data een verzameling van verschillende natuur parken in de Verenigde Staten."}
                             date={"27 januari 2026"}
-                            tags={["Express", "Mongoose", "MongoDB"]}
+                            tags={["Express", "Node.js", "Mongoose", "MongoDB"]}
                         />
 
                         <ProjectCard
                             link={"/natuurQuest"}
                             image={"/projects/natuurQuest/natuurquest.png"}
                             title={"NatuurQuest"}
-                            description={"een webapplicatie waar gezinnensamen een spel van 30 seconds over de natuur in de natuur kunnen spelen."}
+                            description={"een webapplicatie waar gezinnen samen een spel van 30 seconds over de natuur in de natuur spelen."}
                             date={"18 december 2025"}
-                            tags={["Laravel", "Blade", "Php", "Tailwind CSS"]}
+                            tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
+                        />
+
+                        <ProjectCard
+                            link={"/kpopGroups"}
+                            image={"/projects/kpopGroups/kpopGroupsHome.png"}
+                            title={"K-Pop Groups"}
+                            description={"Een webapplicatie waarin je op een overzichtelijke manier uit de database verkregen K-Pop groepen kan bekijken en beheren."}
+                            date={"31 oktober 2025"}
+                            tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />
 
                     </div>

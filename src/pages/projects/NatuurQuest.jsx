@@ -14,12 +14,14 @@ function NatuurQuest() {
                     <div
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
-                            <p><span className={"text-accent"}>✦</span> Schoolproject voor een klant</p>
-                            <p><span className={"text-accent"}>✦</span> NatuurQuest is een webapplicatie, gemaakt in
-                                opdracht van NatuurMonumenten en IO, waar gezinnen
-                                samen een spel van 30 seconds over de natuur in de natuur kunnen spelen. </p>
+                            <p><span className={"text-accent"}>✦</span> Groeps schoolproject voor een klant (Tailored
+                                Learning Environment)</p>
+                            <p><span className={"text-accent"}>✦</span> Een webapplicatie, gemaakt in
+                                opdracht van NatuurMonumenten en IO, ontwikkeld binnen het Laravel Framework waar
+                                gezinnen
+                                samen een spel van 30 seconds over de natuur in de natuur spelen. </p>
                             <p><span className={"text-accent"}>✦</span> Het doel van NatuurQuest is om 12-14 jarigen en
-                                hun gezinnen op een speelse manier de natuur in te brengen, ze leren waarom de natuur
+                                hun gezinnen op een speelse manier de natuur in te brengen, ze te leren waarom de natuur
                                 belangrijk is en hoe zij zelf kunnen helpen om de natuur te beschermen.</p>
                         </div>
 
@@ -33,6 +35,8 @@ function NatuurQuest() {
                                 <span
                                     className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Php</span>
                                 <span
+                                    className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Breeze</span>
+                                <span
                                     className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Tailwind CSS</span>
                             </div>
                         </div>
@@ -40,7 +44,8 @@ function NatuurQuest() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de opleiding CMGT aan de Hogschool Rotterdam tijdens Tailored
-                                Learning Enviroment 2. Ik heb hier met een kleine groep aan gewerkt.</p>
+                                Learning Enviroment projectweken. Ik heb hier met een groep van 5 personen aan gewerkt.
+                            </p>
                         </div>
 
                         <div>

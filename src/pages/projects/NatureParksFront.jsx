@@ -15,11 +15,12 @@ function NatureParksFront() {
                     <div
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
-                            <p><span className={"text-accent"}>✦</span> Individueel
-                                schoolproject (Fullstack Web Development)</p>
-                            <p><span className={"text-accent"}>✦</span> Dit is de front-end van
+                            <p><span className={"text-accent"}>✦</span> Individuele
+                                schoolopdracht (Fullstack Web Development)</p>
+                            <p><span className={"text-accent"}>✦</span> De front-end van
                                 mijn project Nature
-                                Parks. Het bestaat uit een applicatie met een verzameling van verschillende natuur
+                                Parks. Het bestaat uit een applicatie ontwikkeld in React met een verzameling van
+                                verschillende natuur
                                 parken
                                 in de Verenigde Staten. De informatie wordt uit mijn eigen{" "}
                                 <Link to={"/natureParksBack"}
@@ -46,20 +47,21 @@ function NatureParksFront() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam voor het vak programmeren 6. Dit was een
+                                opleiding CMGT aan de Hogschool Rotterdam voor het vak Fullstack Web Development. Dit
+                                was een
                                 individuele opdracht waarin ik met React en Tailwind CSS aan de slag ben gegaan.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Tijdens deze opdracht
-                                heb ik geleerd hoe ik
-                                vanuit
-                                een single page applicatie met routes een applicatie kan maken waarin je kan navigeren
-                                tussen verschillende onderdelen. </p>
-                            <p><span className={"text-accent"}>✦</span> Daarnaast heb ik
-                                geleerd hoe je verschillende
-                                componenten gebruikt om je pagina's te maken en deze te verbinden met elkaar.</p>
+                            <p><span className={"text-accent"}>✦</span> Leren werken met Routes vanaf een single page
+                                applicatie.</p>
+                            <p><span className={"text-accent"}>✦</span> Werken met Componenten en Props om waarden door
+                                te geven.</p>
+                            <p><span className={"text-accent"}>✦</span> Gebruik van Fetch (Asynchroon JavaScript) om
+                                data op te halen en te bewerken.</p>
+                            <p><span className={"text-accent"}>✦</span> Leren werken met States voor het beheren van
+                                gegevens die veranderen.</p>
                             <p><span className={"text-accent"}>✦</span>Waar ik nu een
                                 verbetering in zie is het
                                 effectiever omgaan met het fetchen van informatie uit de webservice. Voor elke pagina

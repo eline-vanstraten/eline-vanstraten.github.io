@@ -14,9 +14,10 @@ function Poppy() {
                     <div
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
-                            <p><span className={"text-accent"}>✦</span> Schoolproject </p>
+                            <p><span className={"text-accent"}>✦</span> Groeps Schoolproject (Tailored Learning
+                                Environment) </p>
                             <p><span className={"text-accent"}>✦</span> Poppy is een muziek
-                                applicatie gemaakt om mensen
+                                applicatie, ontwikkeld in React, gemaakt om mensen
                                 uit hun muziekbubbel te halen. Je ontdekt nieuwe muziek doormiddel van aanbevelingen
                                 gebaseerd op je genre voorkeuren. Door transparantie over het Algoritme dat hierachter
                                 zit ontdek je ook waarom nummers aanbevolen worden en wat jouw muziekbubbel is.</p>
@@ -42,7 +43,8 @@ function Poppy() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam tijdens Tailored Learning Enviroment 3.
+                                opleiding CMGT aan de Hogschool Rotterdam tijdens Tailored Learning Enviroment
+                                projectweken.
                                 Tijdens dit project werdt er gewerkt in 2 verschillende teams: een front-end en back-end
                                 team. Ik
                                 was onderdeel van het front-end team van Poppy.</p>

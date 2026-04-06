@@ -7,6 +7,7 @@ import NatureParksBack from "./pages/projects/NatureParksBack.jsx";
 import NatuurQuest from "./pages/projects/NatuurQuest.jsx";
 import Projects from "./pages/website/Projects.jsx";
 import AboutMe from "./pages/website/AboutMe.jsx";
+import KpopGroups from "./pages/projects/KpopGroups.jsx";
 
 const router = createBrowserRouter([
     {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
             {
                 path: "/aboutMe",
                 element: <AboutMe/>
+            },
+            {
+                path: "/kpopGroups",
+                element: <KpopGroups/>
             },
             {
                 path: "*",

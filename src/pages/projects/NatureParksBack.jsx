@@ -17,11 +17,12 @@ function NatureParksBack() {
                     <div
                         className={"flex flex-col gap-6 bg-body/5 rounded-2xl shadow-lg px-4 w-full mx-auto max-w-sm sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl"}>
                         <div className={"flex flex-col gap-4"}>
-                            <p><span className={"text-accent"}>✦</span> Individueel
-                                schoolproject (Fullstack Web Development)</p>
-                            <p><span className={"text-accent"}>✦</span> Dit is de back-end van
+                            <p><span className={"text-accent"}>✦</span> Individuele
+                                schoolopdracht (Fullstack Web Development)</p>
+                            <p><span className={"text-accent"}>✦</span> De back-end van
                                 mijn project Nature
-                                Parks. Het bestaat uit mijn eigen RESTful webservice waar een verzameling van
+                                Parks. Het bestaat uit mijn eigen RESTful webservice ontwikkeld binnen Express waar een
+                                verzameling van
                                 verschillende
                                 natuur parken uit de Verenigde Staten in staan. De informatie wordt in mijn{" "}
                                 <Link to={"/natureParksFront"}
@@ -35,6 +36,8 @@ function NatureParksBack() {
                         <span
                             className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Express</span>
                                 <span
+                                    className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Node.js</span>
+                                <span
                                     className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ Mongoose</span>
                                 <span
                                     className={"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"}> ✦ MongoDB</span>
@@ -44,19 +47,23 @@ function NatureParksBack() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam voor het vak programmeren 6. Dit was een
+                                opleiding CMGT aan de Hogschool Rotterdam voor het vak Fullstack Web Development. Dit
+                                was een
                                 individuele opdracht waarin ik met Express aan de slag ben gegaan.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Tijdens deze opdracht
-                                heb ik geleerd hoe ik mijn eigen webservice kan bouwen met behulp van Express. </p>
-                            <p><span className={"text-accent"}>✦</span> Daarnaast heb ik
-                                Postman
-                                leren gebruiken om te checken dat mijn webservice daadwerkelijk werkt.</p>
-                            <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is het gebruik van CORS nog beter onder de knie krijgen. </p>
+                            <p><span className={"text-accent"}>✦</span> Ik heb geleerd hoe ik mijn eigen RESTful API kan
+                                bouwen met behulp van Express. </p>
+                            <p><span className={"text-accent"}>✦</span> Postman leren gebruiken om de JSON-response van
+                                de
+                                backend data te
+                                testen.</p>
+                            <p><span className={"text-accent"}>✦</span> Fullstack applicatie ontwikkelen met de
+                                front-end en
+                                back-end gescheiden van elkaar.</p>
+                            <p><span className={"text-accent"}>✦</span> CORS-methode toepassen.</p>
                             <p><span className={"text-accent"}>✦</span>Daarnaast bevat de SEED
                                 nu altijd hetzelfde als data. Voor een volgende keer kan ik hier een array in zetten
                                 waardoor er meer gevarieerde informatie in de SEED zit.</p>
