@@ -52,7 +52,7 @@ function EndlessRunnerGame() {
                             <p><span className={"text-accent"}>✦</span> Zelf de pixel art gemaakt van het karakter,
                                 gebroken hart en sjaal.</p>
                             <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is nog meer variatie toevoegen aam de game. Dit kan door bijvoorbeeld
+                                verbetering in zie is nog meer variatie toevoegen aan de game. Dit kan door bijvoorbeeld
                                 vliegende obstakels toe te
                                 voegen.
                             </p>

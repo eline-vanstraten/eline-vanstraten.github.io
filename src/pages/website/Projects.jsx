@@ -66,6 +66,7 @@ function Projects() {
                             date={"31 oktober 2025"}
                             tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />
+
                         <ProjectCard
                             link={"/endlessRunnerGame"}
                             image={"/projects/endlessRunnerGame/endlessRunner.png"}
@@ -73,6 +74,15 @@ function Projects() {
                             description={"Een endless runner game gebaseerd op het nummer All Too Well van Taylor Swift."}
                             date={"31 mei 2025"}
                             tags={["Excalibur", "JavaScript"]}
+                        />
+
+                        <ProjectCard
+                            link={"/taylorSwift"}
+                            image={"/projects/taylorSite/taylorSiteHome.png"}
+                            title={"Taylor Swift website"}
+                            description={"Een fanpagina website voor zangeres Taylor Swift."}
+                            date={"21 oktober 2024"}
+                            tags={["HTML", "CSS"]}
                         />
 
                     </div>

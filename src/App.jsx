@@ -9,6 +9,7 @@ import Projects from "./pages/website/Projects.jsx";
 import AboutMe from "./pages/website/AboutMe.jsx";
 import KpopGroups from "./pages/projects/KpopGroups.jsx";
 import EndlessRunnerGame from "./pages/projects/EndlessRunnerGame.jsx";
+import TaylorSwift from "./pages/projects/TaylorSwift.jsx";
 
 const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
             {
                 path: "/endlessRunnerGame",
                 element: <EndlessRunnerGame/>
+            },
+            {
+                path: "/taylorSwift",
+                element: <TaylorSwift/>
             },
             {
                 path: "*",
