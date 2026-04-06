@@ -66,6 +66,14 @@ function Projects() {
                             date={"31 oktober 2025"}
                             tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />
+                        <ProjectCard
+                            link={"/endlessRunnerGame"}
+                            image={"/projects/endlessRunnerGame/endlessRunner.png"}
+                            title={"Endless Runner Game"}
+                            description={"Een endless runner game gebaseerd op het nummer All Too Well van Taylor Swift."}
+                            date={"31 mei 2025"}
+                            tags={["Excalibur", "JavaScript"]}
+                        />
 
                     </div>
                 </div>

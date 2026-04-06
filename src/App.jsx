@@ -8,6 +8,7 @@ import NatuurQuest from "./pages/projects/NatuurQuest.jsx";
 import Projects from "./pages/website/Projects.jsx";
 import AboutMe from "./pages/website/AboutMe.jsx";
 import KpopGroups from "./pages/projects/KpopGroups.jsx";
+import EndlessRunnerGame from "./pages/projects/EndlessRunnerGame.jsx";
 
 const router = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             {
                 path: "/kpopGroups",
                 element: <KpopGroups/>
+            },
+            {
+                path: "/endlessRunnerGame",
+                element: <EndlessRunnerGame/>
             },
             {
                 path: "*",

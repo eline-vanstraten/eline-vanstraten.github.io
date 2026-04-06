@@ -16,7 +16,7 @@ function AboutMe() {
                     <div className={"flex flex-col gap-4 text-base sm:text-lg leading-relaxed"}>
                         <p>
                             Hallo, Ik ben Eline van Straten, 19 jaar en tweedejaars student Creative Media en Game
-                            Technologies aan de Hogeschool Rotterdam.
+                            Technologies (CMGT) aan de Hogeschool Rotterdam.
                         </p>
                         <div>
                             <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Mijn
@@ -43,8 +43,8 @@ function AboutMe() {
                                 selectie- en wedstrijdteams. Binnen deze teams heb ik vaardigheden ontwikkeld
                                 zoals het leren van nieuwe dingen, discipline en doorzettingsvermogen. Ik kan goed
                                 werken in teamverband, maar werk ook graag zelfstandig. Daarnaast ben ik gewend
-                                om feedback te ontvangen en zal ik hier ook om vragen, omdat dit mij helpt om
-                                mezelf steeds verder te verbeteren in wat ik doe.
+                                om feedback te ontvangen en zal ik hier ook om vragen. Dit helpt mij om continure te
+                                verbeteren.
                             </p>
                         </div>
                         <div>

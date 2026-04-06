@@ -47,7 +47,7 @@ function NatureParksBack() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam voor het vak Fullstack Web Development. Dit
+                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Fullstack Web Development. Dit
                                 was een
                                 individuele opdracht waarin ik met Express aan de slag ben gegaan.</p>
                         </div>
@@ -60,17 +60,21 @@ function NatureParksBack() {
                                 de
                                 backend data te
                                 testen.</p>
-                            <p><span className={"text-accent"}>✦</span> Fullstack applicatie ontwikkelen met de
+                            <p><span className={"text-accent"}>✦</span> Leren ontwikkelen van een Fullstack applicatie
+                                met de
                                 front-end en
                                 back-end gescheiden van elkaar.</p>
-                            <p><span className={"text-accent"}>✦</span> CORS-methode toepassen.</p>
-                            <p><span className={"text-accent"}>✦</span>Daarnaast bevat de SEED
-                                nu altijd hetzelfde als data. Voor een volgende keer kan ik hier een array in zetten
-                                waardoor er meer gevarieerde informatie in de SEED zit.</p>
+                            <p><span className={"text-accent"}>✦</span> Kennisgemaakt met CORS-methode en dit toegepast.
+                            </p>
+                            <p><span className={"text-accent"}>✦</span>Een verbeterpunt zit in het seeden van data in de
+                                database. De SEED bevat nu altijd data van één natuurpark. Voor een volgende keer kan ik
+                                hier een array in zetten
+                                zodat er meer gevarieerde informatie in de SEED zit.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
-                            <a href={"https://github.com/eline-vanstraten/nature-parks-backend"}
+                            <a href={"https://github.com/eline-vanstraten/nature-parks-backend"} target="_blank"
+                               rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Bekijk
                                 op Github</a>
                         </div>

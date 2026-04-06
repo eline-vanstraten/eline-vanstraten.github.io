@@ -20,7 +20,7 @@ function Poppy() {
                                 applicatie, ontwikkeld in React, gemaakt om mensen
                                 uit hun muziekbubbel te halen. Je ontdekt nieuwe muziek doormiddel van aanbevelingen
                                 gebaseerd op je genre voorkeuren. Door transparantie over het Algoritme dat hierachter
-                                zit ontdek je ook waarom nummers aanbevolen worden en wat jouw muziekbubbel is.</p>
+                                zit, ontdek je ook waarom nummers aanbevolen worden en wat jouw muziekbubbel is.</p>
                             <p><span className={"text-accent"}>✦</span> Het doel van Poppy was
                                 om een ethisch
                                 verantwoord
@@ -45,14 +45,14 @@ function Poppy() {
                                 in het tweede jaar van de
                                 opleiding CMGT aan de Hogschool Rotterdam tijdens Tailored Learning Enviroment
                                 projectweken.
-                                Tijdens dit project werdt er gewerkt in 2 verschillende teams: een front-end en back-end
+                                Tijdens dit project werd er gewerkt in 2 verschillende teams: een front-end en back-end
                                 team. Ik
                                 was onderdeel van het front-end team van Poppy.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Tijdens dit project heb
+                            <p><span className={"text-accent"}>✦</span> In dit project heb
                                 ik veel geleerd over
                                 React
                                 en hoe ik het kan gebruiken. Zo heb ik geleerd hoe ik de muziek kaarten kan swipen en
@@ -60,24 +60,26 @@ function Poppy() {
                             <p><span className={"text-accent"}>✦</span> Daarnaast heb ik
                                 geleerd om in een
                                 andere samenstelling samen te werken. Door de scheiding in een front-end en back-end
-                                team heb ik leren communiceren tussen 2 teams door elkaar goed op de hoogte te houden
+                                team heb ik leren communiceren tussen 2 teams. Belangrijk hierbij was om elkaar goed op
+                                de hoogte te houden
                                 met hoe we ervoor staan en wat we van elkaar nodig hebben.</p>
                             <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is de styling
-                                van de muziek kaarten. Ik kan daar een volgende keer meer diepte aan geven wat ze
-                                speelser zal
-                                maken en nog mooier visueel om te zien.</p>
+                                verbetering in zie, is de styling
+                                van de muziek kaarten. Ik kan daar een volgende keer meer diepte aan geven door ze wat
+                                speelser nog mooier te maken.</p>
                             <p><span className={"text-accent"}>✦</span>Daarnaast was het
                                 interessant geweest om de
-                                aanbevelingen niet alleen op de genre voorkeuren te baseren maar op meer factoren
+                                aanbevelingen niet alleen op genre voorkeuren te baseren maar op meer factoren zoals
+                                jaartal of tijdstip van luisteren
                                 waardoor de aanbevelingen nog gerichter gedaan konden worden.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
-                            <a href={"https://github.com/semvde/Poppy-Front_end"}
+                            <a href={"https://github.com/semvde/Poppy-Front_end"} target="_blank"
+                               rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Bekijk
                                 op Github</a>
-                            <a href={"http://145.24.237.244/"}
+                            <a href={"http://145.24.237.244/"} target="_blank" rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Live
                                 versie</a>
                         </div>

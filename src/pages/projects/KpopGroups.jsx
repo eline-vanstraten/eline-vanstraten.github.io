@@ -18,7 +18,7 @@ function KpopGroups() {
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Web Application Frameworks)</p>
                             <p><span className={"text-accent"}>✦</span> Een webapplicatie ontwikkeld binnen het Laravel
-                                MVC Framework waarin je op een
+                                MVC (Model-View-Controller) Framework waarin je op een
                                 overzichtelijke manier uit de database verkregen K-Pop groepen kan bekijken en beheren.
                             </p>
                         </div>
@@ -42,7 +42,7 @@ function KpopGroups() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam voor het vak Web Application Frameworks. Dit
+                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Web Application Frameworks. Dit
                                 was een
                                 individuele opdracht waarin ik met Laravel en Tailwind CSS aan de slag ben gegaan.</p>
                         </div>
@@ -57,10 +57,14 @@ function KpopGroups() {
                                 van de applicatie.</p>
                             <p><span className={"text-accent"}>✦</span>Leren over de OTAP-methode voor een professioneel
                                 werkproces.</p>
+                            <p><span className={"text-accent"}>✦</span>Als verbeterpunt zou ik voor een volgende keer de
+                                functionaliteit toevoegen dat je een groep favoriet kan maken en dit kan zien in je
+                                profiel.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
-                            <a href={"https://github.com/eline-vanstraten/kpop-groups"}
+                            <a href={"https://github.com/eline-vanstraten/kpop-groups"} target="_blank"
+                               rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Bekijk
                                 op Github</a>
                         </div>

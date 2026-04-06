@@ -18,11 +18,9 @@ function NatureParksFront() {
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Fullstack Web Development)</p>
                             <p><span className={"text-accent"}>✦</span> De front-end van
-                                mijn project Nature
-                                Parks. Het bestaat uit een applicatie ontwikkeld in React met een verzameling van
-                                verschillende natuur
-                                parken
-                                in de Verenigde Staten. De informatie wordt uit mijn eigen{" "}
+                                mijn project Nature Parks. Het bestaat uit een applicatie ontwikkeld in React met een
+                                verzameling van verschillende natuur parken in de Verenigde Staten. De informatie wordt
+                                uit mijn eigen{" "}
                                 <Link to={"/natureParksBack"}
                                       className="text-primary underline hover:text-secondary"> RESTful
                                     webservice</Link>{" "}
@@ -47,7 +45,7 @@ function NatureParksFront() {
                         <div>
                             <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
                                 in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam voor het vak Fullstack Web Development. Dit
+                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Fullstack Web Development. Dit
                                 was een
                                 individuele opdracht waarin ik met React en Tailwind CSS aan de slag ben gegaan.</p>
                         </div>
@@ -65,17 +63,15 @@ function NatureParksFront() {
                             <p><span className={"text-accent"}>✦</span>Waar ik nu een
                                 verbetering in zie is het
                                 effectiever omgaan met het fetchen van informatie uit de webservice. Voor elke pagina
-                                waar informatie nodig is doe ik nu elke keer een fetch maar dat kan ik de volgende keer
+                                waar informatie nodig is, gebruik ik nu elke keer een fetch. Dat kan ik de volgende keer
                                 op een
                                 slimmere manier aanpakken door een javascript bestand te gebruiken en die steeds aan te
                                 roepen. </p>
-                            <p><span className={"text-accent"}>✦</span>Daarnaast had ik nog wat
-                                extra onderdelen willen
-                                toevoegen zoals file upload en registratie / log in.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
-                            <a href={"https://github.com/eline-vanstraten/nature-parks-frontend"}
+                            <a href={"https://github.com/eline-vanstraten/nature-parks-frontend"} target="_blank"
+                               rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Bekijk
                                 op Github</a>
                         </div>
