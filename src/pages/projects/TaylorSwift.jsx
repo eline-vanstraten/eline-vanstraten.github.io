@@ -16,7 +16,8 @@ function TaylorSwift() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Front-end Development)</p>
-                            <p><span className={"text-accent"}>✦</span></p>
+                            <p><span className={"text-accent"}>✦</span>Een fan website over Taylor Swift. Dit is
+                                mijn eerste kennismaking met het maken van een website doormiddel van HTML en CSS.</p>
                         </div>
 
                         <div>
@@ -40,12 +41,12 @@ function TaylorSwift() {
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span></p>
-                            <p><span className={"text-accent"}>✦</span></p>
-                            <p><span className={"text-accent"}>✦</span></p>
-                            <p><span className={"text-accent"}>✦</span></p>
-                            <p><span className={"text-accent"}>✦</span>
-                            </p>
+                            <p><span className={"text-accent"}>✦</span>Leren gebruiken van semantische HTML tags voor
+                                structuur en SEO.</p>
+                            <p><span className={"text-accent"}>✦</span>Stylen met CSS zoals flexbox.</p>
+                            <p><span className={"text-accent"}>✦</span>Responsive design voor zowel desktop als mobiel
+                                maken.</p>
+                            <p><span className={"text-accent"}>✦</span>HTML formulier met validatie leren maken.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
