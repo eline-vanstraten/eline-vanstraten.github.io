@@ -17,15 +17,14 @@ function NatureParksFront() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Fullstack Web Development)</p>
-                            <p><span className={"text-accent"}>✦</span> De front-end van
-                                mijn project Nature Parks. Het bestaat uit een applicatie ontwikkeld in React met een
-                                verzameling van verschillende natuur parken in de Verenigde Staten. De informatie wordt
+                            <p><span className={"text-accent"}>✦</span> Nature Parks Front-end is een React-app waarin
+                                je natuurparken in de VS kunt bekijken, toevoegen, bewerken, verwijderen en als favoriet
+                                markeren. De data komt
                                 uit mijn eigen{" "}
                                 <Link to={"/natureParksBack"}
                                       className="text-primary underline hover:text-secondary"> RESTful
                                     webservice</Link>{" "}
-                                gehaald. Je kan parken bekijken, favoriet maken, toevoegen, wijzigen en
-                                verwijderen.</p>
+                            </p>
                         </div>
 
                         <div>
@@ -43,30 +42,27 @@ function NatureParksFront() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het tweede jaar van de
-                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Fullstack Web Development. Dit
-                                was een
-                                individuele opdracht waarin ik met React en Tailwind CSS aan de slag ben gegaan.</p>
+                            <p><span className={"text-accent"}>✦</span> Het project is gemaakt
+                                in het tweede jaar CMGT aan Hogeschool Rotterdam voor het vak Fullstack Web Development,
+                                waarbij ik werkte met React en Tailwind CSS.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Leren werken met Routes vanaf een single page
+                            <p><span className={"text-accent"}>✦</span> Ik kan werken met routes binnen een single page
                                 applicatie.</p>
-                            <p><span className={"text-accent"}>✦</span> Werken met Componenten en Props om waarden door
+                            <p><span className={"text-accent"}>✦</span> Gebruik van componenten en props om waarden door
                                 te geven.</p>
-                            <p><span className={"text-accent"}>✦</span> Gebruik van Fetch (Asynchroon JavaScript) om
-                                data op te halen en te bewerken.</p>
-                            <p><span className={"text-accent"}>✦</span> Leren werken met States voor het beheren van
-                                gegevens die veranderen.</p>
-                            <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is het
-                                effectiever omgaan met het fetchen van informatie uit de webservice. Voor elke pagina
-                                waar informatie nodig is, gebruik ik nu elke keer een fetch. Dat kan ik de volgende keer
-                                op een
-                                slimmere manier aanpakken door een javascript bestand te gebruiken en die steeds aan te
-                                roepen. </p>
+                            <p><span className={"text-accent"}>✦</span> Fetch (Asynchroon JavaScript) om
+                                data op te halen en te wijzigen.</p>
+                            <p><span className={"text-accent"}>✦</span> States gebruiken om veranderende gegevens te
+                                beheren.</p>
+                            <h2 className={"text-2xl sm:text-3xl"}>Aanbevelingen</h2>
+                            <p><span className={"text-accent"}>✦</span> Informatie effectiever ophalen met één
+                                JavaScript-bestand in plaats van meerdere fetches.</p>
+                            <p><span className={"text-accent"}>✦</span> Toevoegen van onderdelen zoals file upload en
+                                registratie/ log in. </p>
+
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>

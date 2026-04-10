@@ -26,7 +26,7 @@ function Projects() {
                             link={"/poppy"}
                             image={"/projects/poppy/poppy.png"}
                             title={"Poppy"}
-                            description={"een muziek applicatie gemaakt om mensen uit hun muziekbubbel te halen doormiddel van een transparant Algoritme."}
+                            description={"Een muziek applicatie gemaakt om mensen uit hun muziekbubbel te halen doormiddel van een transparant algoritme."}
                             date={"19 maart 2026"}
                             tags={["React", "Javascript", "Tailwind CSS"]}
                         />
@@ -35,7 +35,7 @@ function Projects() {
                             link={"/natureParksFront"}
                             image={"/projects/natureParks/natureParksBegin.png"}
                             title={"Nature Parks front-end"}
-                            description={"Een applicatie met een verzameling van verschillende natuur parken in de Verenigde Staten."}
+                            description={"Een applicatie met een verzameling van verschillende natuurparken uit de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["React", "Javascript", "Vite", "Tailwind CSS"]}
                         />
@@ -44,7 +44,7 @@ function Projects() {
                             link={"/natureParksBack"}
                             image={"/projects/natureParks/express.png"}
                             title={"Nature Parks back-end"}
-                            description={"Een RESTful webservice met als data een verzameling van verschillende natuur parken in de Verenigde Staten."}
+                            description={"Een RESTful webservice met data van verschillende natuurparken uit de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["Express", "Node.js", "Mongoose", "MongoDB"]}
                         />
@@ -53,7 +53,7 @@ function Projects() {
                             link={"/natuurQuest"}
                             image={"/projects/natuurQuest/natuurquest.png"}
                             title={"NatuurQuest"}
-                            description={"een webapplicatie waar gezinnen samen een spel van 30 seconds over de natuur in de natuur spelen."}
+                            description={"Een webapplicatie waar gezinnen samen een 30 seconds natuurspel spelen buiten."}
                             date={"18 december 2025"}
                             tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />
@@ -62,7 +62,7 @@ function Projects() {
                             link={"/kpopGroups"}
                             image={"/projects/kpopGroups/kpopGroupsHome.png"}
                             title={"K-Pop Groups"}
-                            description={"Een webapplicatie waarin je op een overzichtelijke manier uit de database verkregen K-Pop groepen kan bekijken en beheren."}
+                            description={"Een webapplicatie waarin je op een overzichtelijke K-Pop groepen kan bekijken en beheren."}
                             date={"31 oktober 2025"}
                             tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />
@@ -80,7 +80,7 @@ function Projects() {
                             link={"/taylorSwift"}
                             image={"/projects/taylorSite/taylorSiteHome.png"}
                             title={"Taylor Swift website"}
-                            description={"Een fanpagina website voor zangeres Taylor Swift."}
+                            description={"Een fanpagina website over zangeres Taylor Swift."}
                             date={"21 oktober 2024"}
                             tags={["HTML", "CSS"]}
                         />

@@ -17,8 +17,9 @@ function EndlessRunnerGame() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Object Oriented Game Development)</p>
-                            <p><span className={"text-accent"}>✦</span> Een endless runner game ontwikkeld met
-                                Excalibur. Het doel is om de gebroken hartjes te ontwijken en zo lang mogelijk in leven
+                            <p><span className={"text-accent"}>✦</span> Excalibur endless runner game. Het doel: ontwijk
+                                de
+                                gebroken harten om zo lang mogelijk in leven
                                 te blijven. Verzamel een rode sjaal zodra je een leven kwijt raakt.</p>
                         </div>
 
@@ -33,28 +34,25 @@ function EndlessRunnerGame() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het eerste jaar van de
-                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Object Oriented Game
-                                Development. Dit
-                                was een
-                                individuele opdracht waarin ik met Excalibur aan de slag ben gegaan.</p>
+                            <p><span className={"text-accent"}>✦</span> Het project is gemaakt
+                                in het eerste jaar CMGT aan Hogeschool Rotterdam voor het vak Object Oriented Game
+                                Development,
+                                waarbij ik werkte met Excalibur.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Kennisgemaakt met OOP principes en de opbouw van
+                            <p><span className={"text-accent"}>✦</span> Kennisgemaakt met OOP principes en opbouw van
                                 een game visualiseren in een klassendiagram.</p>
-                            <p><span className={"text-accent"}>✦</span> Leren over OOP principes "Composition,
-                                Encapsulation en Inheritance" en deze implementeren in mijn game.</p>
-                            <p><span className={"text-accent"}>✦</span> Leren toepassen van game development technieken
-                                zoals collision detection.</p>
-                            <p><span className={"text-accent"}>✦</span> Zelf de pixel art gemaakt van het karakter,
+                            <p><span className={"text-accent"}>✦</span> OOP principes "Composition,
+                                Encapsulation en Inheritance" implementeren in een game.</p>
+                            <p><span className={"text-accent"}>✦</span> Game development technieken
+                                toepassen zoals collision detection.</p>
+                            <p><span className={"text-accent"}>✦</span> Pixel art gemaakt van het karakter,
                                 gebroken hart en sjaal.</p>
-                            <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is nog meer variatie toevoegen aan de game. Dit kan door bijvoorbeeld
-                                vliegende obstakels toe te
-                                voegen.
+                            <h2 className={"text-2xl sm:text-3xl"}>Aanbevelingen</h2>
+                            <p><span className={"text-accent"}>✦</span> Meer variatie toevoegen aan de game door middel
+                                van vliegende obstakels.
                             </p>
                         </div>
 

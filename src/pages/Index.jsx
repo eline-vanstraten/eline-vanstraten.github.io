@@ -41,8 +41,9 @@ function Index() {
 
                     <div className={"flex flex-col gap-4 text-base sm:text-lg leading-relaxed"}>
                         <p>
-                            Hallo, Ik ben Eline van Straten, 19 jaar en tweedejaars student Creative Media en Game
-                            Technologies (CMGT) aan de Hogeschool Rotterdam.
+                            Hallo, Ik ben Eline van Straten, 19 jaar. Na het behalen van mijn VWO diploma ben ik gestart
+                            met de opleiding Creative Media en Game
+                            Technologies (CMGT) aan de Hogeschool Rotterdam. Ik ben daar nu tweedejaarsstudent.
                         </p>
                         <div>
                             <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Op Zoek naar
@@ -88,7 +89,7 @@ function Index() {
                             link={"/poppy"}
                             image={"/projects/poppy/poppy.png"}
                             title={"Poppy"}
-                            description={"een muziek applicatie gemaakt om mensen uit hun muziekbubbel te halen doormiddel van een transparant Algoritme."}
+                            description={"Een muziek applicatie gemaakt om mensen uit hun muziekbubbel te halen doormiddel van een transparant algoritme."}
                             date={"19 maart 2026"}
                             tags={["React", "Javascript", "Tailwind CSS"]}
                         />
@@ -97,7 +98,7 @@ function Index() {
                             link={"/natureParksFront"}
                             image={"/projects/natureParks/natureParksBegin.png"}
                             title={"Nature Parks front-end"}
-                            description={"Een applicatie met een verzameling van verschillende natuur parken in de Verenigde Staten."}
+                            description={"Een applicatie met een verzameling van verschillende natuurparken uit de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["React", "Javascript", "Vite", "Tailwind CSS"]}
                         />
@@ -106,7 +107,7 @@ function Index() {
                             link={"/natureParksBack"}
                             image={"/projects/natureParks/express.png"}
                             title={"Nature Parks back-end"}
-                            description={"Een RESTful webservice met als data een verzameling van verschillende natuur parken in de Verenigde Staten."}
+                            description={"Een RESTful webservice met data van verschillende natuurparken uit de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["Express", "Node.js", "Mongoose", "MongoDB"]}
                         />
@@ -115,7 +116,7 @@ function Index() {
                             link={"/natuurQuest"}
                             image={"/projects/natuurQuest/natuurquest.png"}
                             title={"NatuurQuest"}
-                            description={"een webapplicatie waar gezinnen samen een spel van 30 seconds over de natuur in de natuur spelen."}
+                            description={"Een webapplicatie waar gezinnen samen een 30 seconds natuurspel spelen buiten."}
                             date={"18 december 2025"}
                             tags={["Laravel", "Blade", "Php", "Breeze", "Tailwind CSS"]}
                         />

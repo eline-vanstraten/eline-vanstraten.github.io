@@ -16,13 +16,10 @@ function NatuurQuest() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Groeps schoolproject voor een klant (Tailored
                                 Learning Environment)</p>
-                            <p><span className={"text-accent"}>✦</span> Een webapplicatie, gemaakt in
-                                opdracht van NatuurMonumenten en IO, ontwikkeld binnen het Laravel Framework waar
-                                gezinnen
-                                samen een spel van "30 seconds" over de natuur in de natuur spelen. </p>
-                            <p><span className={"text-accent"}>✦</span> Het doel van NatuurQuest is om 12-14 jarigen en
-                                hun gezinnen op een speelse manier de natuur in te brengen, te leren waarom de natuur
-                                belangrijk is en hoe zij zelf kunnen helpen om de natuur te beschermen.</p>
+                            <p><span className={"text-accent"}>✦</span> We ontwikkelden een webapplicatie in opdracht
+                                van NatuurMonumenten en IO, binnen het Laravel Framework. Gezinnen spelen samen een "30
+                                seconds" natuurspel buiten. Het doel: 12-14 jarigen en hun gezinnen spelenderwijs leren
+                                over het belang van de natuur en hoe je die kunt beschermen.</p>
                         </div>
 
                         <div>
@@ -42,29 +39,23 @@ function NatuurQuest() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het tweede jaar van de opleiding CMGT aan de Hogeschool Rotterdam tijdens Tailored
-                                Learning Enviroment projectweken. Ik heb hier met een groep van 5 personen aan gewerkt.
+                            <p><span className={"text-accent"}>✦</span> Dit project voerden we uit in het tweede jaar
+                                van CMGT aan Hogeschool Rotterdam met vijf personen.
                             </p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Tijdens dit project heb
-                                ik veel geleerd over Laravel en Blade en hoe ik het kan gebruiken. Zo heb ik het 30
-                                seconds spel gemaakt dat elke keer random 5 natuur woorden geeft maar de gegeven woorden
-                                wel onthoudt voor de spelleider om na te kijken. </p>
-                            <p><span className={"text-accent"}>✦</span> Daarnaast heb ik
-                                geleerd hoe het is om voor een echte opdrachtgever een applicatie te maken. Hierdoor heb
-                                ik kennis opgedaan over hoe je jezelf en als team professioneel opstelt tegenover de
-                                klant en hoe je goed communiceert met je klant.</p>
-                            <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie is uitleg tonen bij de woorden van het spel. Op deze manier kan je
-                                ervoor zorgen dat het een nog informatiever spel wordt. </p>
-                            <p><span className={"text-accent"}>✦</span>Daarnaast zie ik nog verbetering in de styling
-                                van bepaalde paginas voor mobiel gebruik. Er had om de teskt heen, net zoals bij de
-                                desktop versie, een blauw kader gemogen wat de
-                                leesbaarheid zou vergroten.</p>
+                            <p><span className={"text-accent"}>✦</span> Ik heb veel geleerd over Laravel en Blade, zoals
+                                het maken van het 30 seconds-spel dat willekeurig natuurwoorden selecteert en de
+                                gebruikte woorden onthoudt.</p>
+                            <p><span className={"text-accent"}>✦</span> Ook deed ik ervaring op met applicaties bouwen
+                                voor een echte opdrachtgever, samenwerken en communiceren met de klant.
+                            </p>
+                            <h2 className={"text-2xl sm:text-3xl"}>Aanbevelingen</h2>
+                            <p><span className={"text-accent"}>✦</span>Uitleg toevoegen bij de spelwoorden.</p>
+                            <p><span className={"text-accent"}>✦</span>Betere mobiele styling, zoals een blauw kader
+                                rond de uitlegpagina's voor leesbaarheid.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>

@@ -19,14 +19,10 @@ function NatureParksBack() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Fullstack Web Development)</p>
-                            <p><span className={"text-accent"}>✦</span> De back-end van
-                                mijn project Nature
-                                Parks. Het bestaat uit mijn eigen RESTful webservice ontwikkeld binnen Express waar een
-                                verzameling van
-                                verschillende
-                                natuur parken uit de Verenigde Staten in staan. De informatie wordt in mijn{" "}
+                            <p><span className={"text-accent"}>✦</span> Een RESTful webservice ontwikkeld binnen Express
+                                waarin natuurparken uit de VS worden opgeslagen. Deze wordt getoond in mijn{" "}
                                 <Link to={"/natureParksFront"}
-                                      className="text-primary underline hover:text-secondary">React project</Link>{" "}getoond.
+                                      className="text-primary underline hover:text-secondary">React project</Link>.
                             </p>
                         </div>
 
@@ -45,31 +41,24 @@ function NatureParksBack() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het tweede jaar van de
-                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Fullstack Web Development. Dit
-                                was een
-                                individuele opdracht waarin ik met Express aan de slag ben gegaan.</p>
+                            <p><span className={"text-accent"}>✦</span> Het project is gemaakt
+                                in het tweede jaar CMGT aan Hogeschool Rotterdam voor het vak Fullstack Web Development,
+                                waarbij ik werkte met Express.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Ik heb geleerd hoe ik mijn eigen RESTful API kan
-                                bouwen met behulp van Express. </p>
-                            <p><span className={"text-accent"}>✦</span> Postman leren gebruiken om de JSON-response van
-                                de
-                                backend data te
-                                testen.</p>
-                            <p><span className={"text-accent"}>✦</span> Leren ontwikkelen van een Fullstack applicatie
-                                met de
+                            <p><span className={"text-accent"}>✦</span> Ik heb geleerd om een RESTful API te bouwen.
+                            </p>
+                            <p><span className={"text-accent"}>✦</span> Ik Postman gebruiken voor het testen van
+                                JSON-responses.</p>
+                            <p><span className={"text-accent"}>✦</span> Ik kan een Fullstack applicatie maken met de
                                 front-end en
                                 back-end gescheiden van elkaar.</p>
-                            <p><span className={"text-accent"}>✦</span> Kennisgemaakt met CORS-methode en dit toegepast.
-                            </p>
-                            <p><span className={"text-accent"}>✦</span>Een verbeterpunt zit in het seeden van data in de
-                                database. De SEED bevat nu altijd data van één natuurpark. Voor een volgende keer kan ik
-                                hier een array in zetten
-                                zodat er meer gevarieerde informatie in de SEED zit.</p>
+                            <p><span className={"text-accent"}>✦</span> Ik kan CORS toe passen.</p>
+                            <h2 className={"text-2xl sm:text-3xl"}>Aabevelingen</h2>
+                            <p><span className={"text-accent"}>✦</span>De SEED bevat nu altijd dezelfde data: een array
+                                zou in de toekomst meer variatie kunnen bieden.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>

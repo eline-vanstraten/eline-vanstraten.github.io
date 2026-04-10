@@ -17,15 +17,9 @@ function Poppy() {
                             <p><span className={"text-accent"}>✦</span> Groeps Schoolproject (Tailored Learning
                                 Environment) </p>
                             <p><span className={"text-accent"}>✦</span> Poppy is een muziek
-                                applicatie, ontwikkeld in React, gemaakt om mensen
-                                uit hun muziekbubbel te halen. Je ontdekt nieuwe muziek doormiddel van aanbevelingen
-                                gebaseerd op je genre voorkeuren. Door transparantie over het Algoritme dat hierachter
-                                zit, ontdek je ook waarom nummers aanbevolen worden en wat jouw muziekbubbel is.</p>
-                            <p><span className={"text-accent"}>✦</span> Het doel van Poppy was
-                                om een ethisch
-                                verantwoord
-                                AI-aanbevelingssysteem te maken waarmee we mensen uit hun muziek bubbel halen en de
-                                AI-geletterdheid vergroten bij gebruikers door transparantie over het Algoritme.</p>
+                                applicatie, ontwikkeld in React, die gebruikers helpt nieuwe muziek te ontdekken via
+                                aanbevelingen op basis van genrevoorkeuren. Transparantie over het algoritme vergroot
+                                AI-geletterdheid en laat zien waarom nummers worden aanbevolen.</p>
                         </div>
 
                         <div>
@@ -41,37 +35,23 @@ function Poppy() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het tweede jaar van de
-                                opleiding CMGT aan de Hogschool Rotterdam tijdens Tailored Learning Enviroment
-                                projectweken.
-                                Tijdens dit project werd er gewerkt in 2 verschillende teams: een front-end en back-end
-                                team. Ik
-                                was onderdeel van het front-end team van Poppy.</p>
+                            <p><span className={"text-accent"}>✦</span> Het project, uitgevoerd tijdens het tweede jaar
+                                CMGT aan Hogeschool Rotterdam, bestond uit front-end en back-end teams. Ik werkte mee
+                                als lid van het front-end team en heb veel geleerd over React, onder andere hoe
+                                onderdelen samenwerken en hoe je interactieve functies zoals muziekkaarten swipen
+                                implementeert.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> In dit project heb
-                                ik veel geleerd over
-                                React
-                                en hoe ik het kan gebruiken. Zo heb ik geleerd hoe ik de muziek kaarten kan swipen en
-                                daar als gebruiker feedback op krijg. </p>
-                            <p><span className={"text-accent"}>✦</span> Daarnaast heb ik
-                                geleerd om in een
-                                andere samenstelling samen te werken. Door de scheiding in een front-end en back-end
-                                team heb ik leren communiceren tussen 2 teams. Belangrijk hierbij was om elkaar goed op
-                                de hoogte te houden
-                                met hoe we ervoor staan en wat we van elkaar nodig hebben.</p>
-                            <p><span className={"text-accent"}>✦</span>Waar ik nu een
-                                verbetering in zie, is de styling
-                                van de muziek kaarten. Ik kan daar een volgende keer meer diepte aan geven door ze wat
-                                speelser nog mooier te maken.</p>
-                            <p><span className={"text-accent"}>✦</span>Daarnaast was het
-                                interessant geweest om de
-                                aanbevelingen niet alleen op genre voorkeuren te baseren maar op meer factoren zoals
-                                jaartal of tijdstip van luisteren
-                                waardoor de aanbevelingen nog gerichter gedaan konden worden.</p>
+                            <p><span className={"text-accent"}>✦</span> Samenwerken met verschillende teams verbeterde
+                                mijn communicatieve vaardigheden. Ik zie het belang van elkaar goed op de hoogte houden
+                                en feedback geven over wat we van elkaar nodig hebben.</p>
+                            <h2 className={"text-2xl sm:text-3xl"}>Aanbevelingen</h2>
+                            <p><span className={"text-accent"}>✦</span>Nog meer visualiseren van muziekkaarten, zoals
+                                speelser maken en visueel mooier maken.</p>
+                            <p><span className={"text-accent"}>✦</span> Het toevoegen van meer factoren (naast genres)
+                                aan de aanbevelingen om zo de beleving nog beter te maken.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>

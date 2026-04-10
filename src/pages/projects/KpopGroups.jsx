@@ -17,9 +17,8 @@ function KpopGroups() {
                         <div className={"flex flex-col gap-4"}>
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Web Application Frameworks)</p>
-                            <p><span className={"text-accent"}>✦</span> Een webapplicatie ontwikkeld binnen het Laravel
-                                MVC (Model-View-Controller) Framework waarin je op een
-                                overzichtelijke manier uit de database verkregen K-Pop groepen kan bekijken en beheren.
+                            <p><span className={"text-accent"}>✦</span> Webapplicatie ontwikkeld in Laravel waarmee
+                                K-Pop groepen overzichtelijk te beheren zijn vanuit een database.
                             </p>
                         </div>
 
@@ -40,26 +39,22 @@ function KpopGroups() {
                         </div>
 
                         <div>
-                            <p><span className={"text-accent"}>✦</span> Dit project is gemaakt
-                                in het tweede jaar van de
-                                opleiding CMGT aan de Hogeschool Rotterdam voor het vak Web Application Frameworks. Dit
-                                was een
-                                individuele opdracht waarin ik met Laravel en Tailwind CSS aan de slag ben gegaan.</p>
+                            <p><span className={"text-accent"}>✦</span> Het project is gemaakt
+                                in het tweede jaar CMGT aan Hogeschool Rotterdam voor het vak Web Application
+                                Frameworks,
+                                waarbij ik werkte met Laravel en Tailwind CSS.</p>
                         </div>
 
                         <div>
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
-                            <p><span className={"text-accent"}>✦</span> Leren werken met een MVC framework en het
-                                scheiden van verantwoordelijkheden.</p>
-                            <p><span className={"text-accent"}>✦</span> Werken met Eloquent ORM om het werken met
-                                databaserecords te vereenvoudigen.</p>
-                            <p><span className={"text-accent"}>✦</span>OWASP-richtlijnen toegepast voor de beveiliging
-                                van de applicatie.</p>
-                            <p><span className={"text-accent"}>✦</span>Leren over de OTAP-methode voor een professioneel
-                                werkproces.</p>
-                            <p><span className={"text-accent"}>✦</span>Als verbeterpunt zou ik voor een volgende keer de
-                                functionaliteit toevoegen dat je een groep favoriet kan maken en dit kan zien in je
-                                profiel.</p>
+                            <p><span className={"text-accent"}>✦</span> Werken met het MVC-framework en gescheiden
+                                verantwoordelijkheden. </p>
+                            <p><span className={"text-accent"}>✦</span> Gebruik van Eloquent voor eenvoudige
+                                database-interactie.</p>
+                            <p><span className={"text-accent"}>✦</span>Toepassing van OWASP-richtlijnen.</p>
+                            <p><span className={"text-accent"}>✦</span>Kennismaking met de OTAP-methode voor
+                                professioneel
+                                werken.</p>
                         </div>
 
                         <div className={"flex flex-col sm:flex-row gap-4 justify-center mb-3"}>
