@@ -17,7 +17,8 @@ function TaylorSwift() {
                             <p><span className={"text-accent"}>✦</span> Individuele
                                 schoolopdracht (Front-end Development)</p>
                             <p><span className={"text-accent"}>✦</span>Fan website over Taylor Swift. Dit is
-                                mijn eerste kennismaking met het maken van een website doormiddel van HTML en CSS.</p>
+                                mijn eerste kennismaking met het maken van een website met behulp van HTML en CSS.
+                            </p>
                         </div>
 
                         <div>

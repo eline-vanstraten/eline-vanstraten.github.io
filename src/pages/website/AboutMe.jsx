@@ -15,8 +15,9 @@ function AboutMe() {
 
                     <div className={"flex flex-col gap-4 text-base sm:text-lg leading-relaxed"}>
                         <p>
-                            Hallo, Ik ben Eline van Straten, 19 jaar en tweedejaars student Creative Media en Game
-                            Technologies (CMGT) aan de Hogeschool Rotterdam.
+                            Hallo, Ik ben Eline van Straten, 19 jaar. Na het behalen van mijn VWO diploma ben ik gestart
+                            met de opleiding Creative Media en Game
+                            Technologies (CMGT) aan de Hogeschool Rotterdam. Ik ben daar nu tweedejaarsstudent.
                         </p>
                         <div>
                             <h4 className={"text-2xl sm:text-3xl"}><span className={"text-accent"}>✦</span> Mijn

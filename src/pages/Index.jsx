@@ -98,7 +98,7 @@ function Index() {
                             link={"/natureParksFront"}
                             image={"/projects/natureParks/natureParksBegin.png"}
                             title={"Nature Parks front-end"}
-                            description={"Een applicatie met een verzameling van verschillende natuurparken uit de Verenigde Staten."}
+                            description={"Een webapplicatie met een verzameling van verschillende natuurparken uit de Verenigde Staten."}
                             date={"27 januari 2026"}
                             tags={["React", "Javascript", "Vite", "Tailwind CSS"]}
                         />
