@@ -44,7 +44,7 @@ function AboutMe() {
                                 selectie- en wedstrijdteams. Binnen deze teams heb ik vaardigheden ontwikkeld
                                 zoals het leren van nieuwe dingen, discipline en doorzettingsvermogen. Ik kan goed
                                 werken in teamverband, maar werk ook graag zelfstandig. Daarnaast ben ik gewend
-                                om feedback te ontvangen en zal ik hier ook om vragen. Dit helpt mij om continure te
+                                om feedback te ontvangen en zal ik hier ook om vragen. Dit helpt mij om continu te
                                 verbeteren.
                             </p>
                         </div>
