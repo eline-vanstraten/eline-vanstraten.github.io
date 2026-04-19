@@ -50,7 +50,8 @@ function Index() {
                                 een Meeloopstage (periode begin september 2026 tot eind januari 2027)
                             </h4>
                             <p>
-                                Op dit moment ben ik actief op zoek naar een meeloopstage met een focus op front-end
+                                Op dit moment ben ik actief op zoek naar een meeloopstage met een focus op front-end /
+                                full-stack
                                 development. Ik zou graag mijn bestaande kennis van programmeren verder uit
                                 willen breiden en ervaring op willen doen binnen een professioneel team. Door
                                 samen te werken met ervaren collega’s hoop ik niet alleen mijn technische
