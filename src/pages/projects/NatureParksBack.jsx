@@ -50,7 +50,7 @@ function NatureParksBack() {
                             <h2 className={"text-2xl sm:text-3xl"}>Inzichten</h2>
                             <p><span className={"text-accent"}>✦</span> Ik heb geleerd om een RESTful API te bouwen.
                             </p>
-                            <p><span className={"text-accent"}>✦</span> Ik Postman gebruiken voor het testen van
+                            <p><span className={"text-accent"}>✦</span> Ik kan Postman gebruiken voor het testen van
                                 JSON-responses.</p>
                             <p><span className={"text-accent"}>✦</span> Ik kan een Fullstack applicatie maken met de
                                 front-end en
