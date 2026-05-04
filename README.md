@@ -4,6 +4,8 @@ Dit is mijn persoonlijke portfolio website gebouwd met React + Vite.
 
 Hier toon ik mijn projecten, skills en contactinformatie.
 
+Link: https://eline-vanstraten.github.io/ 
+
 ## ✦ Technologieën
 
 - React
