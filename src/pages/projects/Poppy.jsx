@@ -59,9 +59,6 @@ function Poppy() {
                                rel="noopener noreferrer"
                                className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Bekijk
                                 op Github</a>
-                            <a href={"http://145.24.237.244/"} target="_blank" rel="noopener noreferrer"
-                               className={"inline-block bg-primary rounded-full px-5 py-3 text-body hover:bg-secondary"}>Live
-                                versie</a>
                         </div>
 
 
